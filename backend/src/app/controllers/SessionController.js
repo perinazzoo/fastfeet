@@ -8,6 +8,10 @@ class SessionController {
 
     const user = await Admin.findOne({ where: { email } });
 
+    if (!user) {
+      return res.status(401).json({ error: 'User not found' });
+    }
+
     if (!(await user.checkPass(password))) {
       return res.status(401).json({ error: 'Password does not match' });
     }
