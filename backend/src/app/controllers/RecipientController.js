@@ -17,15 +17,13 @@ class RecipientController {
       return res.status(400).json({ error: 'Provided data Incorrect' });
     }
 
-    const recipient = req.body;
-
-    if (await Recipient.findOne({ where: { name: recipient.name } })) {
+    if (await Recipient.findOne({ where: { name: req.body.name } })) {
       return res.status(400).json({ error: 'Recipient already exists' });
     }
 
-    const createdRecipient = await Recipient.create(recipient);
+    const recipient = await Recipient.create(req.body);
 
-    return res.json(createdRecipient);
+    return res.json(recipient);
   }
 }
 
