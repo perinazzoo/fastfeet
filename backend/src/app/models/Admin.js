@@ -13,6 +13,8 @@ class Admin extends Model {
         sequelize,
       }
     );
+
+    return this;
   }
 
   checkPass(pass) {
