@@ -10,7 +10,7 @@ class Admin extends Model {
         password_hash: Sequelize.STRING,
       },
       {
-        sequelize
+        sequelize,
       }
     );
   }
