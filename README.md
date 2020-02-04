@@ -29,7 +29,7 @@ O projeto consiste em uma aplicação completa para uma transportadora fictícia
 
 ## :newspaper_roll: Atualizações em breve
 
-<img src="https://user-images.githubusercontent.com/53301430/73714416-91795f00-46ef-11ea-99c3-0b90fbe6c289.gif"/>
+<img src="https://user-images.githubusercontent.com/53301430/73714713-84a93b00-46f0-11ea-8364-cb736ed395ed.gif"/>
 <br>
 <br>
 <br>
