@@ -27,19 +27,10 @@ O projeto consiste em uma aplicação completa para uma transportadora fictícia
 * <a target="_blank" href="https://pt-br.reactjs.org/">React</a>
 * <a target="_blank" href="https://facebook.github.io/react-native/">React Native</a>
 
-
-
-<div align="center">
-
 ## :newspaper_roll: Atualizações em breve
 
-
-
-  <img width="200px" src="https://user-images.githubusercontent.com/53301430/73713577-b3251700-46ec-11ea-9ce5-afd1d17f6ba3.png"/>
-</div>
-
-
-
-
-
+<img width="100px" src="https://user-images.githubusercontent.com/53301430/73713577-b3251700-46ec-11ea-9ce5-afd1d17f6ba3.png"/>
+<br>
+<br>
+<br>
 Made with :coffee: and :black_heart: by Gabriel.
