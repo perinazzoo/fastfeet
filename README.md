@@ -29,6 +29,8 @@ O projeto consiste em uma aplicação completa para uma transportadora fictícia
 
 ## Atualizações em breve
 
-<img align="center" width="300px" src="https://user-images.githubusercontent.com/53301430/73713577-b3251700-46ec-11ea-9ce5-afd1d17f6ba3.png"/>
+<div align="center">
+  <img width="300px" src="https://user-images.githubusercontent.com/53301430/73713577-b3251700-46ec-11ea-9ce5-afd1d17f6ba3.png"/>
+</div>
 
 Made with :coffee: and :black_heart: by Gabriel.
