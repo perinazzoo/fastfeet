@@ -34,4 +34,4 @@ O projeto consiste em uma aplicação completa para uma transportadora fictícia
 <br>
 <br>
 <br>
-Made with :coffee: and :black_heart: by Gabriel.
+<blockquote>Made with :coffee: and :black_heart: by Gabriel.</blockquote>
