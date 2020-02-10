@@ -1,11 +1,19 @@
 import * as Yup from 'yup';
 
 import Deliverer from '../models/Deliverer';
+import File from '../models/File';
 
 class DelivererController {
   async index(req, res) {
     const deliverers = await Deliverer.findAll({
       attributes: ['id', 'name', 'email', 'avatar_id'],
+      include: [
+        {
+          model: File,
+          as: 'avatar',
+          attributes: ['name', 'path', 'url'],
+        },
+      ],
     });
 
     return res.json(deliverers);
