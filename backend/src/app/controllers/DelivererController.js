@@ -5,13 +5,20 @@ import File from '../models/File';
 
 class DelivererController {
   async index(req, res) {
+    let { page = 1 } = req.query;
+
+    if (page < 1) page = 1;
+
     const deliverers = await Deliverer.findAll({
-      attributes: ['id', 'name', 'email', 'avatar_id'],
+      order: ['id'],
+      limit: 20,
+      offset: (page - 1) * 20,
+      attributes: ['id', 'name', 'email'],
       include: [
         {
           model: File,
           as: 'avatar',
-          attributes: ['name', 'path', 'url'],
+          attributes: ['id', 'name', 'path', 'url'],
         },
       ],
     });
