@@ -4,7 +4,7 @@
 
 <p>Esse projeto faz parte do Desafio Final, que é uma aplicação completa (Back-end, Front-end e Mobile), avaliada para emissão do Certificado do Bootcamp GoStack da Rocketseat.</p>
 
-<blockquote align="center">"Quanto mais luz você emite, mais sombra voce projeta, por isso, tome cuidado!"</blockquote>
+<blockquote align="center">"Quanto mais luz você emite, mais sombra você projeta, por isso, tome cuidado!"</blockquote>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/perinazzoo/fastfeet?color=%2304D361">
