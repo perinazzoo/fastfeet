@@ -30,7 +30,7 @@ class CheckInController {
 
     if (delivery.start_date !== null) {
       return res
-        .status(401)
+        .status(400)
         .json({ error: 'You can only withdraw a package one time' });
     }
 
@@ -44,7 +44,7 @@ class CheckInController {
     if (!isBetween) {
       return res
         .status(401)
-        .json({ error: 'You cannot withdraw before 8h and after 18h' });
+        .json({ error: 'You cannot withdraw after 8 and before 18h' });
     }
 
     const dailyCheckIn = await Delivery.findAll({

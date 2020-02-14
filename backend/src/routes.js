@@ -11,6 +11,7 @@ import PendingController from './app/controllers/PendingController';
 import DeliveredController from './app/controllers/DeliveredController';
 import CheckInController from './app/controllers/CheckInController';
 import CheckOutController from './app/controllers/CheckOutController';
+import DeliveryProblemController from './app/controllers/DeliveryProblemController';
 
 import authMiddleware from './app/middlewares/auth';
 
@@ -30,7 +31,15 @@ routes.put(
 );
 routes.get('/deliveryman/:id/delivered', DeliveredController.index);
 
+routes.post('/deliveries/:id/problems', DeliveryProblemController.store);
+
 routes.use(authMiddleware);
+
+routes.get('/deliveries/:id/problems', DeliveryProblemController.index);
+routes.delete(
+  '/problem/:id/cancel-delivery',
+  DeliveryProblemController.destroy
+);
 
 routes.post('/recipients', RecipientController.store);
 routes.put('/recipients/:id', RecipientController.update);
