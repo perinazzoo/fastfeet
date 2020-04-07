@@ -15,7 +15,7 @@ O projeto consiste em uma aplicação completa para uma transportadora fictícia
 
 # :satellite: Tecnologias utilizadas
 
-* Backend: <a href="https://nodejs.org/en/docs/">Node.js</a>
+Backend: <a href="https://nodejs.org/en/docs/">Node.js</a>
 <br/>
 <blockquote>Em desenvolvimento</blockquote>
 
