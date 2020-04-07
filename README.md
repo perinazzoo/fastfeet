@@ -11,7 +11,7 @@ O projeto consiste em uma aplicação completa para uma transportadora fictícia
 
 # :man_mechanic: Sumário
 
-* <a href="./backend">Backend</a>
+<a href="./backend">Backend</a>
 
 # :satellite: Tecnologias utilizadas
 
